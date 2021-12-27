@@ -1,6 +1,50 @@
-const farmAnimals = 'cow horse sheep pig chicken';
+const farmAnimals = ['cow', 'horse', 'sheep', 'pig', 'chicken'];
+
+const ['moo', 'neigh', 'baa', 'oink', 'cluck'] = farmAnimals;
+console.log('moo');
+console.log('neigh');
+console.log('baa');
+console.log('oink');
+console.log('cluck');
+
+const ['bessie', 'trotter', 'dolly', 'babe', 'little'] = farmAnimals;
+console.log('bessie');
+console.log('trotter');
+console.log('dolly');
+console.log('babe');
+console.log('little');
+
+const ['blackAndWhite', 'brown', 'black', 'pink', 'white'] = farmAnimals;
+console.log('blackAndWhite');
+console.log('brown');
+console.log('black');
+console.log('pink');
+console.log('white');
+
+
+
 
 const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+
+const ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'] = colors;
+console.log('red');
+console.log('orange');
+console.log('yellow');
+console.log('green');
+console.log('blue');
+console.log('indigo');
+console.log('violet');
+
+const ['r', 'o', 'y', 'g', 'b', 'indg', 'v'];
+console.log('r');
+console.log('o');
+console.log('y');
+console.log('g');
+console.log('b');
+console.log('indg');
+console.log('v');
+
+
 
 const muppet = {
   muppetName: 'Miss Piggy',
@@ -9,6 +53,15 @@ const muppet = {
   job: 'Cast member of The Muppet Show',
   partner: 'Kermit'
 };
+
+const ['muppetName', 'color', 'song', 'job', 'partner'] = muppet;
+console.log('muppetName');
+console.log('color');
+console.log('song');
+console.log('job');
+console.log('partner');
+
+
 
 const nestedMuppet = {
   nestedName: 'Kermit',
@@ -24,6 +77,12 @@ const nestedMuppet = {
   nestedJob: 'Host of The Muppet Show',
   nestedPartner: 'Miss Piggy'
 };
+
+const song2 = nestedMuppet.album.song2;
+const song4 = nestedMuppet.album.song4;
+const nestedJob = nestedMuppet.nestedJob;
+const nestedPartner = nestedMuppet.nestedPartner;
+
 
 // Strings
 
